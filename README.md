@@ -1,4 +1,5 @@
-#Demonstrating inconsistent behaviour of getComponentMetaData
+Demonstrating inconsistent behaviour of getComponentMetaData
+
 We ran into this issue because coldbox was generating errors but not reporting filenames and line numbers on syntax errors
 
 Finally it seems getComponentMetaData is not reporting filename and line number of syntax errors (which is used a lot by wirebox).
