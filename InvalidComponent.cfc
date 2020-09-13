@@ -28,6 +28,7 @@ component {
 					"%soadate%",
 					dateFormat( now(), "yyyymmdd" ) & "00"
 				);
+				// note the TYPO after domain_id :: 
 				var myRecord = DnsRecordservice.new( {
 					domain_id 	 :: oDnsDomain.getId(),
 					type         : templateRecord.type,
